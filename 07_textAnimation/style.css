@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+  color: white;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+font-size: 120px;
+}
+
+h1 span{
+  /* They act like inline elements (sit next to each other on the same line) but also behave like block elements in that you can control their width, height, margin, and padding */
+  display: inline-block;
+}
